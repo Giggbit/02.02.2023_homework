@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Массивы в .NET homework 02.02.2023", "Массивы в .NET homework 02.02.2023.csproj", "{DE96A7CF-013F-454E-8128-137A5BD824FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE96A7CF-013F-454E-8128-137A5BD824FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE96A7CF-013F-454E-8128-137A5BD824FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE96A7CF-013F-454E-8128-137A5BD824FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE96A7CF-013F-454E-8128-137A5BD824FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {185430C4-62EF-45F4-98C8-927764A36DE3}
+	EndGlobalSection
+EndGlobal
