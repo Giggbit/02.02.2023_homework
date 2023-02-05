@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Массивы_в.NET_homework_02._02._2023
 {
-    internal class Program
-    {
+    internal class Program {
         public static void Swap(ref int a, ref int b) {
             int c = 0;
             c = a;
@@ -69,7 +68,46 @@ namespace Массивы_в.NET_homework_02._02._2023
             #endregion
 
             #region ex3
+            /*int[] mas_A = new int[5];
+            Console.Write("Enter sum number of massive elements: ");
+            string n = Console.ReadLine();
+            int sum_num = Convert.ToInt32(n);
 
+            Console.WriteLine("Enter 5 number under 10:");
+            string str = null; int num = 0; int sum = 0;
+            while (sum_num != sum) { 
+                for(int i = 0; i < mas_A.Length; i++) {
+                    str = Console.ReadLine();
+                    num = Convert.ToInt32(str);
+                    mas_A[i] = num;
+                    sum += mas_A[i];
+                } Console.WriteLine();
+                if(sum_num != sum) {
+                    Console.WriteLine("Sum number != massive elements!\nTry again!\nEnter 5 number under 10:");
+                    sum = 0;
+                }
+            }
+            Console.WriteLine("Good!\n");
+            for(int i = 0; i < mas_A.Length; i++) {
+                Console.Write($"{mas_A[i]}  ");
+            } Console.WriteLine();
+
+            int[] mas_B = new int[3];
+            Random rand = new Random();
+            int a = 0;
+            for(int i = 0; i < mas_B.Length; i++) {
+                mas_B[i] = rand.Next(1,10);
+                Console.Write($"{mas_B[i]}  ");
+            } 
+            for(int i = 0; i < mas_B.Length; i++) { 
+                for(int j = 0; j < mas_A.Length; j++) {
+                    if (mas_B[i] == mas_A[j]) { a++; break; }
+                }
+            } Console.WriteLine($"a = {a}");
+            if(a == 3) {
+                Console.WriteLine("mas_A is a subset of the set mas_B");
+            }
+            else { Console.WriteLine("mas_A is not a subset of the set mas_B"); }*/
             #endregion
 
         }
